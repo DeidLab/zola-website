@@ -1,0 +1,39 @@
+# The URL the site will be built for
+base_url = "https://deid.it"
+
+theme = "hallo"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+greeting = "Ciao!"
+iam = "Sono "
+
+links = [
+    { title = "GitHub", url = "https://github.com/deid84", icon = "github" },
+    { title = "Linkedin", url = "https://www.linkedin.com/in/davideferrero/", icon = "linkedin" },
+    { title = "Youtube", url = "https://www.youtube.com/c/deidlab", icon = "youtube" },
+    { title = "Telegram", url = "#", icon = "telegram" },
+    { title = "Medium", url = "https://medium.com/@deid84", icon = "medium" },
+    { title = "E-Mail", url = "mailto:info@deid.it", iconset = "fas", icon = "envelope" },
+]
+
+[extra.author]
+name = "Davide Ferrero"
+
+[extra.theme]
+background = "#333333"
+foreground = "#FFF" # text and portrait border
+hover = "#333" # link hover
+
+
+
